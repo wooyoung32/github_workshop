@@ -1,0 +1,48 @@
+---
+title: "Insert a title here"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+##  Your turn 0
+
+- Let's make sure that you have Github Desktop installed and connected
+
+- We are going to check the (many!) steps here: www.clairekelling.com/files/github_desktop_instructions.html
+
+- Before going to the first exercise, we will **fork** and then **clone** this repository.
+
+##  Your turn 1
+
+- Open the `example.Rmd` file in your folder and make a few edits in this new file (e.g., change the title)
+
+- Commit the change, add an informative message
+
+- Push the changes to GitHub
+
+
+## Your turn 2
+
+The office ratings data are available at https://www.math.carleton.edu/ckelling/data_science/office_ratings.csv.
+
+Take 1 minute to 
+
+- choose a name for the data set in snake case and check if it exists
+
+- import these data into R using `readr::read_csv("url")` and 
+
+- assign the data set the chosen name
+
+```{r}
+# Put your code here
+```
+
+
+## Your turn 3
+
+1. Commit your code, with an informative comment
+
+2. Knit your file and commit that code with an informative comment.
+
+3. Push to Github!
